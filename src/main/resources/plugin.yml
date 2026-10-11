@@ -1,0 +1,17 @@
+name: Block-Placement-Cancel
+version: 0.0.1
+author: kurai
+main: dev.kurai.bpc.BlockPlacementCancelPlugin
+depend: [packetevents]
+
+commands:
+  blockplacementcancel:
+    description: Manage the list of players prevented from placing blocks.
+    usage: /<command> <add|remove|list> [player]
+    aliases: [bpc]
+    permission: bpc.command
+
+permissions:
+  bpc.command:
+    description: Allows managing the block placement cancel player list.
+    default: op

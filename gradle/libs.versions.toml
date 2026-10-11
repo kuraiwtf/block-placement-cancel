@@ -1,0 +1,9 @@
+[versions]
+spigot = '1.8.8-R0.1-SNAPSHOT'
+packetevents-api = '2.13.0'
+lombok = '1.18.46'
+
+[libraries]
+spigot = { module = 'org.spigotmc:spigot-api', version.ref = 'spigot' }
+packetevents-spigot = { module = 'com.github.retrooper:packetevents-spigot', version.ref = 'packetevents-api' }
+lombok = { module = 'org.projectlombok:lombok', version.ref = 'lombok' }
